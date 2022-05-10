@@ -1,0 +1,22 @@
+body{
+    max-width: 960px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.centered {
+    text-align: center;
+}
+.colored-background {
+    color: blueviolet;
+    background-color: salmon;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 1em;
+}
+.media-box {
+    background-color: rgb(138, 228, 126);
+}
