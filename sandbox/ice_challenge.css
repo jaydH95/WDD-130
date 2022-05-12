@@ -1,0 +1,20 @@
+body{
+    max-width: 960px;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+img {
+    max-width: 100%;
+}
+
+.centered {
+    text-align: center;
+}
+
+main, footer {
+    max-width: 400px;
+    margin:auto;
+
+}
+

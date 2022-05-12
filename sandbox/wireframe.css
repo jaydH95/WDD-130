@@ -20,3 +20,17 @@ img {
 .media-box {
     background-color: rgb(138, 228, 126);
 }
+a:link {
+    color:aquamarine;
+    text-decoration: dotted;
+}
+a:visited {
+    color:blueviolet;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+a:active{
+    color: palevioletred;
+}
