@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    text-align: center;
+}
+body{
+    margin: 0;
+    background-color: slategray;
+}
+.round-img-section {
+    background-color: slategray;
+    text-align: center;
+}
+.round-img-section img {
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid darkslategray;
+    margin: 4%;
+}
