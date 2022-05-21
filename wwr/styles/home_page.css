@@ -7,6 +7,7 @@ nav a {
     text-align: center;
     color: plum;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -28,6 +29,14 @@ main section {
 
 body {
     background-color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -42,6 +51,9 @@ nav a:hover {
 .home-title {
     color:blueviolet;
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -51,18 +63,24 @@ h4 {
 .book, .join {
     color:darkblue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
-    color:darkorange;
+    color:rgb(240, 161, 64);
 }
 
 .msg h2 {
-    color:darkorchid;
+    color:rgb(74, 15, 104);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .msg p {
     color: darkslategray;
+    font-size: .8em;
 }
 
 footer h3 {
@@ -70,7 +88,7 @@ footer h3 {
 }
 
 footer a {
-    color:aqua;
+    color: rgb(16, 16, 109);
     text-decoration: none;
 }
 
@@ -84,9 +102,41 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px
 }
 
 #hero-img {
     width: 100%
 }
 
+.msg {
+    background-color: #d0d4c2;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px;
+    border-color: black;
+}
+
+main section img {
+    box-sizing: border-box;
+}
