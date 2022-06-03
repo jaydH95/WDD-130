@@ -196,6 +196,7 @@ h4 {
 .msg h2 {
     color:#61e294;
     font-family: 'Permanent Marker', cursive;
+    font-weight: lighter;
 }
 
 .msg p {
