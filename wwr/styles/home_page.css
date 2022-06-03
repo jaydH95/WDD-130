@@ -56,6 +56,7 @@ nav a:hover {
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-weight: lighter;
 }
 
 .button-box {
@@ -75,7 +76,7 @@ main section {
 
 body {
     background-color: #07345f;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -85,7 +86,7 @@ body {
     width: 80px;
 }
 
-#logo-link {
+#logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
@@ -93,7 +94,7 @@ body {
 
 .home-title {
     color:antiquewhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Permanent Marker', cursive;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -115,6 +116,8 @@ h4 {
     color: black;
     text-decoration: none;
     font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -186,9 +189,13 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.light {
+    font-weight: lighter;
+}
+
 .msg h2 {
     color:#61e294;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .msg p {
