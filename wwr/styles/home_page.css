@@ -59,6 +59,35 @@ nav a:hover {
     font-weight: lighter;
 }
 
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: -100px;
+}
+#banner_box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#banner_img {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/3;  
+}
+#banner_msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;}
+
+#banner_title h1 {
+    text-align: center;
+    font-weight: lighter;
+
+}
+
+
+
 .button-box {
     text-align: center;
 }
@@ -232,6 +261,11 @@ footer a:hover {
     border: 5px;
     border-radius: 5px;
 }
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
