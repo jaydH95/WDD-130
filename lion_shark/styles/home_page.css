@@ -55,6 +55,63 @@ h1, h3, h4 {
     font-family: 'Inria Serif';
 }
 
+.content1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.title {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-content: left;
+}
+.summary {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-top: -150px;
+}
+.habitat {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-top: -150px;
+}
+.aquatic img {
+    width: 75%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+}
+.terrestrial img {
+    width: 75%;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.terrestrial, .aquatic {
+    max-width: 75%;
+    text-align: center;
+    margin: auto;
+}
+.contents {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    border:5px solid #ef8354;
+    border-radius: 5px;
+}
+.photo {
+    max-width: 75%;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    justify-content: center;
+    margin: auto;
+}
+.classification {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    border:5px solid #ef8354;
+    border-radius: 5px;
+}
+.etymology, .taxonomy, .description, .conservation, .interaction, .culture, .also {
+    grid-column: 1/4;
+}
 
 
 
@@ -63,7 +120,7 @@ h1, h3, h4 {
 footer {
     background-color: #3da35d;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
