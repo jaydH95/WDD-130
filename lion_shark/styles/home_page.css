@@ -7,7 +7,7 @@
 
 body {
     background-color: white;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand';
     font-size: 19px;
     margin: 0;
     padding: 0;
@@ -17,7 +17,8 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #3da35d;
-    font-family: 'Inria Serif';
+    font-family: 'Georgia';
+    font-weight: lighter;
 }
 
 .logo {
@@ -52,7 +53,8 @@ main {
 }
 
 h1, h3, h4 {
-    font-family: 'Inria Serif';
+    font-family: 'Georgia';
+    font-weight: lighter;
 }
 
 .content1 {
@@ -113,10 +115,6 @@ h1, h3, h4 {
     grid-column: 1/4;
 }
 
-
-
-
-
 footer {
     background-color: #3da35d;
     padding: 25px 50px;
@@ -141,3 +139,62 @@ footer a:hover {
 }
 
 /*Page 2 CSS (minus header and footer): Gallery images on a grid, plus flip card effect to show more information.*/
+
+.intro2 {
+    justify-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.feature img {
+    width: 75%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.jackelope img {
+    width: 75%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.platypus img {
+    width: 75%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.turtledove img {
+    width: 75%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.spidermonkey img{
+    width: 75%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.seahorse img{
+    width: 75%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.oroboros img{
+    width: 75%;
+    grid-column: 1/2 ;
+    grid-row: 3/4;
+}
+.werewolf img{
+    width: 75%;
+    grid-column: 2/3 ;
+    grid-row: 3/4;
+}
+.angel img{
+    width: 75%;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
