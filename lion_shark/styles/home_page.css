@@ -228,9 +228,8 @@ footer a:hover {
     border: 1px solid #f1f1f1;
     perspective: 1000px;
     margin: 10px;
-    align-content: center;
+    align-items: center;
   }
-  
   
   .flip-card-inner {
     position: relative;
@@ -284,11 +283,17 @@ footer a:hover {
     margin-left: 200px;
     margin-right: 200px;
     max-width: 80ch;
+    padding: 25px;
     background-color: #94CAE2;
     color:#2C4872;
     text-align: center;
     justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
+
 .species {
     border:5px solid #D2B42F;
     border-radius: 5px;
@@ -308,19 +313,23 @@ footer a:hover {
 .endagered {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
 .finch {
     grid-column: 1/2;
-    width: 350px;
+    max-width: 350px;
     align-items: center;
 }
 .tiger {
     grid-column: 2/3;
-    width: 350px;
+    max-width: 350px;
     align-items: center;
 }
 .turtle {
     grid-column: 3/4;
-    width: 350px;
+    max-width: 350px;
     align-items: center;
 }
